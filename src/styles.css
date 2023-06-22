@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Conatiner-center {
+  width: 80%;
+  margin: 0 auto;
+}
+.categoryTitle {
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+.booksContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* flex: 1; */
+}
+.bookCard {
+  width: 200px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card-icon {
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+}
+.card-icon2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  background-color: black;
+  color: white;
+}
+.Bookshelf-Container {
+  width: 180px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.bookShlef-catyegory {
+}
